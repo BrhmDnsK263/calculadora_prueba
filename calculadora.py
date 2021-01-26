@@ -5,7 +5,7 @@ def suma(num_a,num_b):
 a = int(input("ingrese un numero: "))
 b = int(input("ingrese otro numero: "))
 
-def restar(num_a, num_b):
+def aaa_restar(num_a, num_b):
     return num_a - num_b
 
 opcion = 0
