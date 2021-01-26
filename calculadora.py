@@ -1,3 +1,7 @@
+def suma(num_a,num_b):
+    return num_a+num_b
+
+
 a = int(input("ingrese un numero: "))
 b = int(input("ingrese otro numero: "))
 
@@ -9,6 +13,6 @@ while opcion not in (1,2,3):
     opcion = int(input("ingrese opcion: "))
 
 if opcion == 1:
-    print(a+b)
+    print(suma(a,b))
 else:
     print(a-b)
